@@ -25,7 +25,7 @@ const App = () => {
               <BackgroundController />
             )}
           </div>
-          <div>
+          <div className="col-span-2 md:col-span-4">
             <LogoPreview downloadIcon={downloadIcon} />
           </div>
         </div>
