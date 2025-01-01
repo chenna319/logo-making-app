@@ -25,10 +25,9 @@ const App = () => {
               <BackgroundController />
             )}
           </div>
-          <div className="md:col-span-3">
+          <div>
             <LogoPreview downloadIcon={downloadIcon} />
           </div>
-          <div>Adds Bannner</div>
         </div>
       </div>
     </UpdateStorageContext.Provider>
